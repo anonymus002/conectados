@@ -1,7 +1,7 @@
-·{
-<box-sizing: border-box;
-margin: 0;
-padding: 0;
+*{
+  box-sizing: border-box;
+   margin: 0;
+   padding: 0;
 
 }
 
@@ -14,10 +14,11 @@ background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/s
     <font-size: 16px;
     font-family:'Oswald', sans-serif;
 }
-a{
+
+a {
 	color: #ffffff;
 	text-decoration: none;
-
+	
 }
 
 ul {
@@ -31,9 +32,41 @@ ul {
 	margin: auto;
 }
 
-
-.nav.main {
+/* Navigation */
+.nav-main {
 	font-size: 17px;
 	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	height: 60%
+	padding: 20%;
+}
+.nav-brand{
+	width: 20px;
+}
+.nav-brand{
+	width: 50px;
+}
+
+/*NAF LEFT */
+.nav-main ul {
+	display: flex;
+}
+
+
+.nav-main ul li {
+         padding: 10px;
+}
+
+.nav-main ul li a{
+	padding: 6px;
+}
+.nav-main ul li a:hover{
+	border-bottom: 2px solid #ffffff
+	  
+}
+.nav-main ul.nav-menu{
+	flex: 1;
+	margin-left: 20px;
 }
 
