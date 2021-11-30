@@ -161,3 +161,92 @@ hr{
 	color: #000;
 }
 
+.banner-one p,
+.banner-one h2 {
+	margin: 10px 0 20px;
+}
+
+
+/* BANNER TWO*/
+
+.banner-two {
+        width: 100%;
+       height: 350px;
+        background-image: url(fondotwo.jpg);
+}
+
+.banner-two .content {
+	width: 50%;
+	padding: 100px 0 0 30px;
+	color: #000;
+}
+.banner-two p,
+.banner-two h2 {
+	margin: 10px 0 20px;
+}
+
+/* SOCIAL */
+
+.social {
+	margin: 50px;
+
+}
+
+.social p {
+	text-align: center;
+	font-size: 30px;
+	margin-bottom: 20px;
+}
+
+.link {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.link a {
+	margin: 0 30px;
+}
+
+.link a i {
+	font-size: 3rem;
+}
+
+/* PIE DE PAGINA */
+
+.pie-de-página {
+	background-color: #a9a7ae;
+	color: 616161;
+	font-size: 12px;
+	padding: 35px 0;
+
+}
+
+.pie-container {
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+	gap: 25px;
+	align-items: flex-start;
+	 justify-content: center;
+}
+
+.pie-container ul {
+	margin: 0 auto;
+
+}
+
+.pie-container ul li {
+	line-height: 2.3;
+}
+
+
+.footer {
+	background-color: #000;
+	color: #616161;
+	font-size: 12px;
+	padding: 20px 0;
+	text-align: center;
+	padding-bottom: 20px;
+
+}
+
